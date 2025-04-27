@@ -1,0 +1,30 @@
+# Environment variables
+.env*
+
+# Python virtual environment
+venv/
+.venv/
+*/venv/
+*/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+py11/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.log
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Docker ignore node_modules in subdirectories too
+**/node_modules
